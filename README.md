@@ -1,7 +1,12 @@
 # Boolean
 
-This repository contains tools for analyzing and optimizing Boolean networks using various methods, including CellNOpt, MEIGO, and Caspo.
+This repository contains tools for analyzing and optimizing Boolean networks using various methods, including CellNOpt [1], MEIGO [2], and caspo [3].
 
+[1] Terfve, C., Cokelaer, T., Henriques, D. et al. CellNOptR: a flexible toolkit to train protein signaling networks to data using multiple logic formalisms. BMC Syst Biol 6, 133 (2012). https://doi.org/10.1186/1752-0509-6-13
+
+[2] Egea, J.A., Henriques, D., Cokelaer, T. et al. MEIGO: an open-source software suite based on metaheuristics for global optimization in systems biology and bioinformatics. BMC Bioinformatics 15, 136 (2014). https://doi.org/10.1186/1471-2105-15-136
+
+[3] Santiago Videla, Julio Saez-Rodriguez, Carito Guziolowski, Anne Siegel, caspo: a toolbox for automated reasoning on the response of logical signaling networks families, Bioinformatics, Volume 33, Issue 6, March 2017, Pages 947–950, https://doi-org.proxy.bnl.lu/10.1093/bioinformatics/btw738
 
 ## Load HPC Modules
 To run the code on a High-Performance Computing (HPC) cluster, you need to load the necessary modules. Here are the commands to do so:
