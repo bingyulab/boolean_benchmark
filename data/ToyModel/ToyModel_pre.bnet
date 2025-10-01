@@ -1,0 +1,13 @@
+targets, factors
+EGF, EGF
+TNFa, TNFa
+Jnk, TNFa
+PI3K, EGF | TNFa
+Raf, EGF
+Akt, PI3K
+Mek, Raf | !Akt
+Erk, Mek
+cJun, Jnk
+p90RSK, Mek
+Hsp27, Erk | TNFa
+NFkB, TNFa

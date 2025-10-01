@@ -1,0 +1,41 @@
+targets, factors
+CD8, CD8
+TCRlig, TCRlig
+CD45, CD45
+TCRbind, (TCRlig & !cCbl)
+CREB, Rsk
+PLCg_act, ((ZAP70 & ((PLCg_bind & SLP76) & Rlk)) | (Itk & ((ZAP70 & PLCg_bind) & SLP76)))
+ZAP70, ((TCRphos & Lck) & !cCbl)
+DAG, PLCg_act
+Calcin, Ca
+PAGCsk, Fyn
+JNK, SEK
+Rsk, ERK
+cCbl, ZAP70
+Rlk, Lck
+Jun, JNK
+TCRphos, Fyn
+Itk, (ZAP70 & SLP76)
+AP1, (Fos & Jun)
+RasGRP1, (PKCth & DAG)
+Fos, ERK
+IP3, PLCg_act
+Gads, LAT
+IkB, !IKKbeta
+Nfkb, !IkB
+IKKbeta, PKCth
+Grb2Sos, LAT
+NFAT, Calcin
+Ca, IP3
+Lck, ((CD45 & CD8) & !PAGCsk)
+PLCg_bind, LAT
+CRE, CREB
+SLP76, Gads
+SEK, PKCth
+MEK, Raf
+ERK, MEK
+LAT, ZAP70
+Fyn, ((CD45 & Lck) | (TCRbind & CD45))
+Raf, Ras
+Ras, (Grb2Sos | RasGRP1)
+PKCth, DAG

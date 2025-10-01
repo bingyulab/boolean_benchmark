@@ -1,0 +1,41 @@
+targets, factors
+igf1 , igf1
+tgfa , tgfa
+il1a , il1a
+tnfa , tnfa
+prak , p38 | mkk3 | erk12
+map3k7 , traf6 | traf2
+pip3 , pi3k
+pak , rac | !akt
+rac , pi3k
+raf1 , pak | !akt | ras
+mek12 , raf1
+irs1 , igfr
+nik , map3k7
+map3k1 , rac | sitpec | ras
+grb2 , shc | egfr
+mkk4 , map3k7 | map3k1 | ask1
+mkk7 , map3k7 | map3k1 | ask1
+igfr , igf1
+sos , grb2
+ikk , nik | map3k1 | cot
+akt , pdk1
+traf6 , il1r
+il1r , il1a
+p38 , mkk4 | mkk6 | mkk3
+shc , igfr | egfr
+mkk6 , map3k7
+traf2 , tnfr
+sitpec , traf6
+pi3k , irs1 | ras | egfr | tnfr
+ras , sos
+egfr , tgfa
+tnfr , tnfa
+cot , akt
+mkk3 , map3k7
+erk12 , mek12
+pdk1 , pip3
+ask1 , traf2
+hsp27 , prak
+jnk12 , mkk4 | mkk7
+ikb , ikk

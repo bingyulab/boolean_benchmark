@@ -1,0 +1,16 @@
+targets, factors
+EGF , EGF
+TNFa , TNFa
+TRAF6 , TNFa | EGF
+Jnk , TRAF6
+p38 , TRAF6
+PI3K , TNFa
+Ras , EGF
+Raf , Ras
+Akt , PI3K
+Mek , Raf | !Akt
+Erk , Mek
+NFkB , TRAF6
+cJun , Jnk
+Hsp27 , p38 | Erk
+p90RSK , Mek
